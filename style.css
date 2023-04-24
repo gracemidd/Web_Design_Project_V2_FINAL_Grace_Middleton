@@ -539,12 +539,9 @@ background-color: #FED7C6;
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
   display: block;
+  text-align: left;
   margin-left: 25px;
-  margin-right: 25px;
-  width: 550px;
-  height: 350px;
   margin-top: 15px ;
-  border-radius: 5px; 
   line-height: 33px;
 }
 
@@ -561,10 +558,12 @@ background-color: #FED7C6;
 
 /* DIGITAL DESIGN ASSIGNMENT 2 TEXT B */
 .Digital-Design-Assignment-2-textB {
-  display: block;
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
+  display: block;
   margin-left: 25px;
+  margin-right: 25px;
+
   margin-top: 15px;
   line-height: 33px;
 }
