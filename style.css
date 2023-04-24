@@ -1,0 +1,997 @@
+
+/* HOMEPAGE BACKGROUND COLOUR ELEMENT */
+.HomePage {
+  background-color: #d3d3d3
+}
+
+/* HOMEPAGE NAV BAR */
+nav {
+    margin: 50px auto 0;
+    position: relative;
+    width: 1210px;  
+    height: 40px;
+    border-radius: 10px;
+    font-size: 0;
+}
+
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(42, 18, 18);
+    cursor: pointer;
+    box-shadow: 0px 2px 8px 2px #C0C0C0;
+    border-radius: 5px;
+    transition: all .2 ease-in-out;
+}
+
+nav a:hover{
+  transform:scale(1.02);
+  box-shadow: 0px 2px 10px 4px #C0C0C0;
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+a:nth-child(1) {
+    width: 100px;
+}
+a:nth-child(2) {
+    width: 110px;
+}
+a:nth-child(3) {
+    width: 250px;
+}
+a:nth-child(4) {
+    width: 100px;
+}
+
+a:nth-child(5) {
+    width: 100px;
+}
+
+
+nav .start-Grace-Middleton, a:nth-child(1) {
+  border-radius: 5px;
+  padding: 0px;
+  width: 230px;
+  left: 0px;
+  background-color: #F7A4A4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+nav .start-AFL-photography, a:nth-child(2) {
+    border-radius: 5px;
+    padding: 0px;
+    width: 230px;
+    left: 350px;
+    background-color: #FFFBC1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .start-Development-Work, a:nth-child(3) {
+    border-radius: 5px;
+    padding: 0px;
+    width: 230px;
+    left: 700px;
+    background-color: #D3E4CD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .start-About, a:nth-child(4) { 
+    border-radius: 5px;
+    padding: 0px;
+    width: 230px;
+    left: 1050px;
+    background-color: #B6E2A1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+span {
+    color: #191e1d;
+}
+
+.href {
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* AFL PHOTOGRAPHY GRACE MIDDLETON/LANDING PAGE IMAGE SETTINGS */
+.image1 {
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 700px;
+  height: 500px;
+  margin-top: 40px ;
+  box-shadow: 0px 2px 8px 2px #C0C0C0;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+}
+
+
+
+
+
+/* DEVELOPMENT WORK GRACE MIDDLETON/LANDING PAGE IMAGE SETTINGS */
+.image2 {
+ float: inline-start;
+  margin-top: 40px;
+  width: 700px;
+  height: 500px;
+  box-shadow: 0px 2px 8px 2px #C0C0C0;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+}
+
+
+
+/* AFL PHOTOGRAPHY IMAGE HOVER SETTINGS */
+.image1:hover {
+    transform:scale(1.02);
+    box-shadow: 0px 2px 10px 4px #C0C0C0;
+  }
+ 
+  
+/* DEVELOPMENT WORK IMAGE HOVER SETTINGS */
+.image2:hover {
+    transform:scale(1.02);
+    box-shadow: 0px 2px 10px 4px #C0C0C0;
+  }
+
+ 
+  
+
+/* AFL PHOTOGRAPHY PAGE SETTINGS */
+
+
+/* AFL PHOTOGRAPHY BACKGROUND COLOUR ELEMENT */
+.AFL-photography {
+  background-color: #FFFBC1; 
+}
+
+.AFL-photography-column {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
+
+.AFL-photography-row {
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 667px;
+  height: 500px;
+  margin-top: 50px ;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+}
+
+.text-left {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 1px;
+}
+
+.text-right {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-right: 5px;
+}
+
+
+
+/* DEVELOPMENT WORK PAGE SETTINGS */
+
+ 
+
+/* DEVELOPMENT WORK BACKGROUND COLOUR ELEMENT */ 
+.Development-Work {
+  background-color: #f3f0f0; 
+}
+
+
+/* COPYWRITING IMAGE ON DEVELOPMENT WORK HOMEPAGE SETTINGS */
+.Copywriting-Development-Work-Homepage {
+  float:left;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 375px;
+  height: 375px;
+  margin-top: 50px ;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+  box-shadow: 0px 2px 8px 2px #C0C0C0; 
+}
+
+/* COPYWRITING IMAGE HOVER ON DEVELOPMENT WORK HOMEPAGE  SETTINGS */
+.Copywriting-Development-Work-Homepage:hover {
+  transform:scale(1.02);
+  box-shadow: 0px 2px 10px 4px #C0C0C0;
+}
+
+
+/* CONTENT STRATEGY IMAGE ON DEVELOPMENT WORK HOMEPAGE SETTINGS */
+.Content-Strategy-Development-Work-Homepage {
+  float: inline-start;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 375px;
+  height: 375px;
+  margin-top: 50px ;
+  box-shadow: 0px 2px 8px 2px #C0C0C0;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+  
+}
+
+/* CONTENT STRATEGY IMAGE HOVER ON DEVELOPMENT WORK HOMEPAGE SETTINGS */
+.Content-Strategy-Development-Work-Homepage:hover {
+  transform:scale(1.02);
+  box-shadow: 0px 2px 10px 4px #C0C0C0;
+}
+
+
+/* DIGITAL DESIGN ON DEVELOPMENT WORK HOMEPAGE IMAGE SETTINGS */
+.Digital-Design-Development-Work-Homepage {
+  float: inline-end;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 375px;
+  height: 375px;
+  margin-top: 50px ;
+  box-shadow: 0px 2px 8px 2px #C0C0C0;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+}
+
+/* DIGITAL DESIGN ON DEVELOPMENT WORK HOMEPAGE IMAGE HOVER SETTINGS */
+.Digital-Design-Development-Work-Homepage:hover {
+  transform:scale(1.02);
+  box-shadow: 0px 2px 10px 4px #C0C0C0;
+}
+
+
+/* DIGITAL PHOTOGRAPHY ON DEVELOPMENT WORK HOMEPAGE IMAGE SETTINGS */
+.Digital-Photography-Development-Work-Homepage {
+  float: left;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 375px;
+  height: 375px;
+  margin-top: 35px ;
+  box-shadow: 0px 2px 8px 2px #C0C0C0;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+
+}
+
+/* DIGITAL PHOTOGRAPHY ON DEVELOPMENT WORK HOMEPAGE IMAGE HOVER SETTINGS */
+.Digital-Photography-Development-Work-Homepage:hover {
+  transform:scale(1.02);
+  box-shadow: 0px 2px 10px 4px #C0C0C0;
+}
+
+
+/* VIDEO PRODUCTION ON DEVELOPMENT WORK HOMEPAGE IMAGE SETTINGS  */
+.Video-Production-Development-Work-Homepage{
+  float: inline-start;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 375px;
+  height: 375px;
+  margin-top: 30px ;
+  box-shadow: 0px 2px 8px 2px #C0C0C0;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+  vertical-align: bottom;
+}
+
+/* VIDEO PRODUCTION IMAGE HOVER SETTINGS */
+.VideoProductionDWLeft:hover {
+  transform:scale(1.02);
+  box-shadow: 0px 2px 10px 4px #C0C0C0;
+}
+
+
+/* USER EXPERIENCE IMAGE SETTINGS */
+.User-Experience-Development-Work-Homepage {
+  float:right;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 375px;
+  height: 375px;
+  margin-top: 30px ;
+  box-shadow: 0px 2px 8px 2px #C0C0C0;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+  
+}
+
+
+/* USER EXPERIENCE IMAGE HOVER SETTINGS  */
+.UserExperienceDWLeft:hover {
+  transform:scale(1.02);
+  box-shadow: 0px 2px 10px 4px #C0C0C0;
+}
+
+
+
+/* COPYWRITING PAGE SETTINGS */
+
+/* COPYWRITING BACKGROUND COLOUR ELEMENT  OPTION 2 */
+.Copywriting {
+background-color: #FED7C6; 
+}
+
+
+/* COPYWRITING ASSIGNMENT 1 IMAGE */
+.Copywriting-Assignment-1-image {
+  display: block;
+  margin-left: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
+
+/* COPYWRITING ASSIGNMENT 1 TEXT */
+.Copywriting-Assignment-1-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* COPYWRITING ASSIGNMENT 2 IMAGE */
+.Copywriting-Assignment-2-image {
+ display: block;
+  margin-left: 25px;
+  margin-right: 5px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
+
+
+/* COPYWRITING ASSIGNMENT 2 TEXT BOLD */
+.Copywriting-Assignment-2-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* COPYWRITING ASSIGNMENT 3 IMAGE */
+.Copywriting-Assignment-3-image {
+  float:left;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 450px;
+  height: 450px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
+
+/* COPYWRITING ASSIGNMENT 3 TEXT */
+.Copywriting-Assignment-3-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 520px;
+  line-height: 33px;
+  margin-right: 100px;
+}
+
+
+
+/* CONTENT STRATEGY PAGE SETTINGS */
+
+/* CONTENT STRATEGY BACKGROUND COLOUR ELEMENT */
+.Content-Strategy {
+  background-color: #DAD4EC;
+}
+
+/* CONTENT STRATEGY ASSIGNMENT 1 IMAGE */
+.Content-Strategy-Assignment-1-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
+
+/* CONTENT STRATEGY ASSIGNMENT 1 TEXT */
+.Content-Strategy-Assignment-1-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* CONTENT STRATEGY ASSIGNMENT 2 IMAGE */
+.Content-Strategy-Assignment-2-image{
+  display: block;
+   margin-left: 25px;
+   margin-right: 25px;
+   width: 550px;
+   height: 600px;
+   margin-top: 100px ;
+   border-radius: 5px;
+ }
+ 
+ /* CONTENT STRATEGY ASSIGNMENT 2 TEXT */
+.Content-Strategy-Assignment-2-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* CONTENT STRATEGY ASSIGNMENT 3 IMAGE */
+.Content-Strategy-Assignment-3-image {
+  display: block;
+   margin-left: 25px;
+   margin-right: 25px;
+   width: 800px;
+   height: 600px;
+   margin-top: 100px ;
+   border-radius: 5px;
+ }
+
+  /* CONTENT STRATEGY ASSIGNMENT 3 TEXT */
+.Content-Strategy-Assignment-3-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+
+
+
+/* DIGITAL DESIGN PAGE SETTINGS */
+
+/* DIGTIAL DESIGN BACKGROUND COLOUR ELEMENT */
+.Digital-Design {
+  background-color: #d6783a
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 1 IMAGE */
+.Digital-Design-Assignment-1-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 1 TEXT */
+.Digital-Design-Assignment-1-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 2 IMAGE A */
+.Digital-Design-Assignment-2-imageA {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px ;
+  border-radius: 5px; 
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 2 TEXT A */
+.Digital-Design-Assignment-2-textA {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 15px ;
+  border-radius: 5px; 
+  line-height: 33px;
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 2 IMAGE B */
+.Digital-Design-Assignment-2-imageB {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 2 TEXT B */
+.Digital-Design-Assignment-2-textB {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 2 IMAGE C */
+.Digital-Design-Assignment-2-imageC {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px;
+  border-radius: 5px; 
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 2 TEXT C */
+.Digital-Design-Assignment-2-textC {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 3 IMAGE */
+.Digital-Design-Assignment-3-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px;
+  border-radius: 5px; 
+}
+
+/* DIGITAL DESIGN ASSIGNMENT 3 TEXT */
+.Digital-Design-Assignment-3-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+
+
+/* DIGITAL PHOTOGRAPHY PAGE SETTINGS */
+
+/* DIGTIAL PHOTOGRAPHY BACKGROUND COLOUR ELEMENT */
+.Digital-Photography {
+  background-color: #9ec7ef;
+}
+
+/* DIGITAL PHOTOGRAPHY ASSIGNMENT 1 IMAGE */
+.Digital-Photography-Assigment-1-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px;
+  border-radius: 5px; 
+}
+
+/* DIGITAL PHOTOGRAPHY ASSIGNMENT 1 TEXT */
+.Digital-Photography-Assignment-1-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* DIGITAL PHOTOGRAPHY ASSIGNMENT 2 IMAGE */
+.Digital-Photography-Assignment-2-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 800px;
+  height: 500px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
+
+/* DIGITAL PHOTOGRAPHY ASSIGNMENT 2 TEXT */
+.Digital-Photography-Assignment-2-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* DIGITAL PHOTOGRAPHY ASSIGNMENT 3 IMAGE */
+.Digital-Photography-Assignment-3-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 500px;
+  height: 600px;
+  margin-top: 50px;
+  border-radius: 5px; 
+}
+
+/* DIGITAL PHOTOGRAPHY ASSIGNMENT 3 TEXT */
+.Digital-Photography-Assignment-3-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  line-height: 33px;
+}
+
+/* VIDEO PRODUCTION PAGE SETTINGS */
+
+/* VIDEO PRODUCTION BACKGROUND COLOUR ELEMENT */
+.Video-Production {
+  background-color: #bbbbbb;
+}
+
+/* VIDEO PRODUCTION ASSIGNMENT 1 IMAGE */
+
+/* VIDEO PRODUCTION ASSIGNMENT 1 TEXT */
+
+/* VIDEO PRODUCTION ASSIGNMENT 2 IMAGE */
+
+/* VIDEO PRODUCTION ASSIGNMENT 2 TEXT */
+
+/* VIDEO PRODUCTION ASSIGNMENT 3 IMAGE */
+
+/* VIDEO PRODUCTION ASSIGNMENT 3 TEXT */
+
+
+
+
+
+
+
+/* USER EXPERIENCE PAGE SETTINGS */
+
+/* USER EXPERIENCE BACKGROUND COLOUR ELEMENT */
+.User-Experience {
+  background-color: #A7B6A8;
+}
+
+/* USER EXPERIENCE ASSIGNMENT 1 IMAGE */
+
+/* USER EXPERIENCE ASSIGNMENT 1 TEXT */
+
+/* USER EXPERIENCE ASSIGNMENT 2 IMAGE */
+
+/* USER EXPERIENCE ASSIGNMENT 2 TEXT */
+
+/* USER EXPERIENCE ASSIGNMENT 3 IMAGE */
+
+/* USER EXPERIENCE ASSIGNMENT 3 TEXT */
+
+
+/* ABOUT US PAGE SETTINGS 
+
+
+/* ABOUT US BACKGROUND COLOUR ELEMENT */
+.About-Us {
+  background-color: #e5e3e3;
+}
+
+.About-Us-image {
+  float:left;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 400px;
+  height: 500px;
+  margin-top: 35px;
+  border-radius: 5px;
+}
+
+.About-Us-text {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 35px;
+  line-height: 33px;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER SETTINGS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col-md-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  margin-top: 50px;
+  }
+ 
+
+.table-responsive-md > .table-bordered {
+  border: 0;
+  }
+
+
+@media (max-width: 991.98px) {
+  .table-responsive-lg {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .table-responsive-lg > .table-bordered {
+    border: 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .table-responsive-xl {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+ 
+  .table-responsive-xl > .table-bordered {
+    border: 0;
+  }
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.mt-2,
+.my-2 {
+  margin-top: 0.5rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+  }
