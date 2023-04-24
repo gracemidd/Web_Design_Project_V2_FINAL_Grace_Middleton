@@ -689,6 +689,16 @@ background-color: #FED7C6;
 }
 
 /* VIDEO PRODUCTION ASSIGNMENT 1 IMAGE */
+.Video-Production-Assigment-1-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
+}
 
 /* VIDEO PRODUCTION ASSIGNMENT 1 TEXT */
 
