@@ -814,6 +814,15 @@ background-color: #FED7C6;
 }
 
 /* USER EXPERIENCE ASSIGNMENT 3 IMAGE */
+.User-Experience-Assignment-3-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 650px;
+  height: 450px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
 
 /* USER EXPERIENCE ASSIGNMENT 3 TEXT */
 
