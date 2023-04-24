@@ -709,6 +709,15 @@ background-color: #FED7C6;
   line-height: 33px;
 }
 /* VIDEO PRODUCTION ASSIGNMENT 2 IMAGE */
+.Video-Production-Assignment-2-image {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 600px;
+  height: 400px;
+  margin-top: 50px ;
+  border-radius: 5px;
+}
 
 /* VIDEO PRODUCTION ASSIGNMENT 2 TEXT */
 
