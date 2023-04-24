@@ -536,6 +536,8 @@ background-color: #FED7C6;
 
 /* DIGITAL DESIGN ASSIGNMENT 2 TEXT A */
 .Digital-Design-Assignment-2-textA {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
   display: block;
   margin-left: 25px;
   margin-right: 25px;
