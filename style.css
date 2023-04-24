@@ -525,7 +525,7 @@ background-color: #FED7C6;
 
 /* DIGITAL DESIGN ASSIGNMENT 2 IMAGE A */
 .Digital-Design-Assignment-2-imageA {
-  display: block;
+  float: left;
   margin-left: 25px;
   margin-right: 25px;
   width: 550px;
