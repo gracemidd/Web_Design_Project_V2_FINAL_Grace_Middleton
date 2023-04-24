@@ -550,7 +550,7 @@ background-color: #FED7C6;
 
 /* DIGITAL DESIGN ASSIGNMENT 2 IMAGE B */
 .Digital-Design-Assignment-2-imageB {
-  display: block;
+  text-align: left;
   margin-left: 25px;
   margin-right: 25px;
   width: 550px;
