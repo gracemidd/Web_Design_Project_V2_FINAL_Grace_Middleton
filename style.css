@@ -709,6 +709,12 @@ background-color: #FED7C6;
   line-height: 33px;
 }
 
+.Video-Production-Assigment-1-Video {
+  width: 600px;
+  height: 400px;
+}
+
+
 video::-webkit-media-controls-play-button,
 video::-webkit-media-controls-pause-button {
   background-color:white;
