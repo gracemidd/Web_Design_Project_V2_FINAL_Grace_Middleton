@@ -709,25 +709,9 @@ background-color: #FED7C6;
   line-height: 33px;
 }
 
-.Video-Production-Assigment-1-Video {
-  width: 600px;
-  height: 400px;
-}
 
 
-video::-webkit-media-controls-play-button,
-video::-webkit-media-controls-pause-button {
-  background-color:white;
-  border: none;
-  border-radius: 50%;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
-  height: 50px;
-  margin: 0 10px;
-  outline: none;
-  width: 50px;
 
-}
 
 
 
