@@ -719,7 +719,7 @@ background-color: #FED7C6;
 }
 
 .button2 {
-  float: inline-end;
+  display: block;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 25px;
