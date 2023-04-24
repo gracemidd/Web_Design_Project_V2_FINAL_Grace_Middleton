@@ -708,7 +708,27 @@ background-color: #FED7C6;
   margin-top: 15px;
   line-height: 33px;
 }
-/* VIDEO PRODUCTION ASSIGNMENT 2 VIDEO */
+
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-pause-button {
+  background-color:white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  height: 50px;
+  margin: 0 10px;
+  outline: none;
+  width: 50px;
+
+}
+
+
+
+
+
+
+/* VIDEO PRODUCTION ASSIGNMENT 2 VIDEO 
 
 
 .button1 {
@@ -725,6 +745,7 @@ background-color: #FED7C6;
   margin-top: 25px;
 }
 
+*/
 
 /* VIDEO PRODUCTION ASSIGNMENT 2 TEXT */
 .Video-Production-Assignment-2-text {
