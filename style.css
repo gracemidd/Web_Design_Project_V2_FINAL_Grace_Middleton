@@ -173,6 +173,7 @@ span {
   background-color: #FFFBC1; 
 }
 
+/* AFL PHOTOGRAPHY PHOTOS ON LEFT HAND SIDE OF PAGE */
 .AFL-photography-column {
   float: left;
   margin-left: 10px;
@@ -183,6 +184,7 @@ span {
   border-radius: 5px;
 }
 
+/* AFL PHOTOGRAPHY PHOTOS ON RIGHT HAND SIDE OF PAGE */
 .AFL-photography-row {
   float: right;
   width: 10px;
