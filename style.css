@@ -872,7 +872,7 @@ background-color: #FED7C6;
   resize: vertical;
 }
 
-.input [type=submit] {
+.button [type=submit] {
 background-color: #04AA6D;
 color: white;
 padding: 12px 20px;
