@@ -881,7 +881,7 @@ border-radius: 4px;
 cursor: pointer;
 }
 
-.input [type=sumbit]:hover {
+.button:hover {
   background-color: #45a049;
 }
 
