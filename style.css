@@ -844,9 +844,9 @@ background-color: #FED7C6;
   border-radius: 5px;
 }
 
-/* ABOUT US TEXT SETTINGS }
-*/
-.About-Us-text {
+/* ABOUT US TEXT SETTINGS */
+
+.About-Us-text 
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
