@@ -833,7 +833,7 @@ background-color: #FED7C6;
   background-color: #e5e3e3;
 }
 
-/* ABOUT US IMAGE SETTINGS 
+/* ABOUT US IMAGE SETTINGS */
 .About-Us-image {
   float:left;
   margin-left: 80px;
@@ -843,8 +843,9 @@ background-color: #FED7C6;
   margin-top: 35px;
   border-radius: 5px;
 }
+
+/* ABOUT US TEXT SETTINGS }
 */
-/* ABOUT US TEXT SETTINGS 
 .About-Us-text {
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
@@ -852,8 +853,7 @@ background-color: #FED7C6;
   margin-left: 20px;
   margin-top: 50px;
   line-height: 33px;
-}
-*/
+
 /* ABOUT US CONTACT FORM */
 .body {
   font-family: Arial, Helvetica, sans-serif;
