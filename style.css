@@ -886,8 +886,9 @@ cursor: pointer;
 
 .container {
   border-radius: 5px;
-  background-color: #a84b4b;
+  background-color: #f2f2f2;
   padding: 20px;
+  margin-top: 50px;
 }
 
 
