@@ -846,13 +846,14 @@ background-color: #FED7C6;
 
 /* ABOUT US TEXT SETTINGS */
 
-.About-Us-text 
+.About-Us-text { 
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   margin-left: 20px;
   margin-top: 50px;
   line-height: 33px;
+}
 
 /* ABOUT US CONTACT FORM */
 .body {
