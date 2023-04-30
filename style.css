@@ -1119,6 +1119,10 @@ hr {
   margin-top: 50px; 
 }
 
+.about-me {
+  text-align: center !important;
+}
+
 .personal-info {
   text-align: center !important;
 
